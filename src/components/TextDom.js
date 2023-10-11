@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 export default function Textform(props) {
+    // changing uppercase to lowercase
     const handleUpClick = () => {
         console.log("Uppercase was clicked" + text)
         let newText = text.toUpperCase();
